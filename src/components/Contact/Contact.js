@@ -2,9 +2,9 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <contact>
+        <section>
             stay running and project
-        </contact>
+        </section>
     );
 };
 
