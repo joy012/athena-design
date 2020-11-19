@@ -1,6 +1,6 @@
 import React from 'react';
 import Achievements from './components/Achievements/Achievements';
-import Contact from './components/Contact/Contact';
+import Contact from './components/ContactUs/ContactUs';
 import Email from './components/Email/Email';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
