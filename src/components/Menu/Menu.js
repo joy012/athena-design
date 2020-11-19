@@ -2,9 +2,9 @@ import React from 'react';
 
 const Menu = () => {
     return (
-        <div>
+        <nav>
             menu
-        </div>
+        </nav>
     );
 };
 

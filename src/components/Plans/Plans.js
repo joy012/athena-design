@@ -2,9 +2,9 @@ import React from 'react';
 
 const Plans = () => {
     return (
-        <div>
+        <section>
             plans
-        </div>
+        </section>
     );
 };
 
