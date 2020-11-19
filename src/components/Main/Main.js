@@ -4,7 +4,7 @@ import Menu from '../Menu/Menu';
 
 const Main = () => {
     return (
-        <main>
+        <main className='container mb-5'>
             <Menu />
             <Header />
         </main>
