@@ -10,7 +10,7 @@ import Services from './components/Services/Services';
 
 const App = () => {
     return (
-        <div>
+        <>
             <Menu />
             <Header />
             <Services />
@@ -19,7 +19,7 @@ const App = () => {
             <Plans />
             <Email />
             <Footer />
-        </div>
+        </>
     );
 };
 
