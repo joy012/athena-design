@@ -1,6 +1,6 @@
 .bg-img {
-    background: url(./images/background.png) no-repeat 600px -225px;
-    background-size: 70%;
+    background: url(./images/background.png) no-repeat 700px -180px;
+    background-size: 62%;
 }
 .gradient-btn {
     background: linear-gradient(135deg, #29f39a 0%, #04a5f5 100%);
@@ -13,6 +13,10 @@
     background: linear-gradient(135deg, #04a5f5 0%, #29f39a 100%);
     color: #fff;
 }
-.gradient-btn:focus {
-    outline: none;
+.contact-text{
+    text-decoration: none;
+}
+.contact-text:hover{
+    color: white!important;
+    text-decoration: none;
 }

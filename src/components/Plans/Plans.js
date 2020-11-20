@@ -10,14 +10,14 @@ const Plans = () => {
     };
 
     return (
-        <section className='text-center plans-bg'>
+        <section className='text-center plans-bg py-5' id='pricing'>
             <h1 className='title'>Choose Your Dedicated Team</h1>
             <div className='container mt-5'>
                 <div className='row '>
                     <div className='col-md-4 '>
                         <div className='px-3'>
                             <div
-                                className='plans-cards p-5'
+                                className='plans-cards my-3 p-5'
                                 onMouseOver={() => visibleBtn('plan1Btn')}
                                 onMouseLeave={() => hiddenBtn('plan1Btn')}
                             >
@@ -54,7 +54,7 @@ const Plans = () => {
                         onMouseLeave={() => hiddenBtn('plan2Btn')}
                     >
                         <div className='px-3'>
-                            <div className='plans-cards p-5'>
+                            <div className='plans-cards my-3 p-5'>
                                 <h1>$399</h1>
                                 <p>For Preferred</p>
                                 <table width='100%'>
@@ -89,7 +89,7 @@ const Plans = () => {
                         onMouseLeave={() => hiddenBtn('plan3Btn')}
                     >
                         <div className='px-3'>
-                            <div className='plans-cards p-5'>
+                            <div className='plans-cards my-3 p-5'>
                                 <h1>$599</h1>
                                 <p>For Elite</p>
                                 <table width='100%'>

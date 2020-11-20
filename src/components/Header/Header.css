@@ -3,3 +3,6 @@
 .title {
     font-family: 'Yeseva One', cursive;
 }
+html {
+    scroll-behavior: smooth;
+  }

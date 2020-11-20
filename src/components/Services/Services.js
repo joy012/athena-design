@@ -7,7 +7,8 @@ import serviceImg4 from '../../Images/Group 72@2x.png';
 
 const Services = () => {
     return (
-        <section className='container text-center pt-5 mb-5' id='services'>
+        <section className='bg-color py-2'>
+            <div className='container text-center pt-5 mb-5' id='services'>
             <div className='mb-5'>
                 <h2 className='title'>What we do</h2>
                 <p className='text-muted'>
@@ -59,6 +60,7 @@ const Services = () => {
                         </small>
                     </p>
                 </div>
+            </div>
             </div>
         </section>
     );

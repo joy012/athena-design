@@ -5,6 +5,7 @@ import {
     faLinkedin,
     faTwitter,
     faDribbble,
+    faBehanceSquare,
 } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
 
@@ -22,22 +23,22 @@ const Footer = () => {
                             />
                             <div className='d-flex mt-4 footer-brands  '>
                                 <FontAwesomeIcon
-                                    className='mr-4'
+                                    className='icons mr-4'
                                     size='2x'
                                     icon={faFacebook}
                                 />
                                 <FontAwesomeIcon
-                                    className='mr-4'
+                                    className='icons mr-4'
                                     size='2x'
                                     icon={faTwitter}
                                 />
                                 <FontAwesomeIcon
-                                    className='mr-4'
+                                    className='icons mr-4'
                                     size='2x'
                                     icon={faLinkedin}
                                 />
                                 <FontAwesomeIcon
-                                    className='mr-4'
+                                    className='icons mr-4'
                                     size='2x'
                                     icon={faDribbble}
                                 />
