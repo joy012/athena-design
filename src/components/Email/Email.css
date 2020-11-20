@@ -1,0 +1,19 @@
+.newsletter{
+    padding: 5px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(58, 57, 13, 0.1); 
+}
+.newsletter input{
+    border: none;
+}
+.newsletter input:focus {
+    outline: none !important;
+}
+.newsletter-btn{
+    background: linear-gradient(80deg,#1ddab8 0%, #009efd 100%);
+    padding: 10px 22px;
+    border-radius: 5px;
+    color: white;
+    
+}
