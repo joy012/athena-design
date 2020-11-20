@@ -1,0 +1,19 @@
+#services img {
+    height: 85px;
+}
+
+#services {
+    background-color: #fafffd;
+}
+
+.single-service {
+    padding: 30px;
+}
+
+.single-service:hover {
+    cursor: pointer;
+    border-radius: 40% 0px;
+    background-color: #ffffff;
+    transition: 0.3s ease-in;
+    box-shadow: 0px 25px 50px rgba(30, 148, 99, 0.2);
+}
