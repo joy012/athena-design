@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className='row'>
             <div className='col-lg-6 col-md-5'>
-                <h1 className='header-title display-3 mb-5 font-weight-bold'>
+                <h1 className='title display-3 mb-5'>
                     Florence <br /> Agency
                 </h1>
                 <p className='text-muted mb-4'>
@@ -17,7 +17,7 @@ const Header = () => {
                         book.
                     </small>
                 </p>
-                <button className=''>See Pricing</button>
+                <button className='gradient-btn'>See Pricing</button>
             </div>
             <div className='col-lg-6 col-md-7'>
                 <img className='img-fluid' src={headerImg} alt='' />

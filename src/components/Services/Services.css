@@ -2,8 +2,12 @@
     height: 85px;
 }
 
+#services {
+    background-color: #fafffd;
+}
+
 .single-service {
-    padding: 40px;
+    padding: 30px;
 }
 
 .single-service:hover {

@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
-.header-title {
-    font-family: 'Xanh Mono', monospace;
-    color: #080e3bd7;
+.title {
+    font-family: 'Yeseva One', cursive;
 }

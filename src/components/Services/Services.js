@@ -7,9 +7,9 @@ import serviceImg4 from '../../Images/Group 72@2x.png';
 
 const Services = () => {
     return (
-        <section className='container text-center pt-5' id='services'>
+        <section className='container text-center pt-5 mb-5' id='services'>
             <div className='mb-5'>
-                <h2>What we do</h2>
+                <h2 className='title'>What we do</h2>
                 <p className='text-muted'>
                     <small>
                         Our main focus is to make the User Experience very{' '}
