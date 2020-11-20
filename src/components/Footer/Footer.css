@@ -4,3 +4,10 @@
 footer img{
     width: 130px;
 }
+footer li:hover{
+    cursor: pointer;
+    color:black;
+}
+.icons:hover{
+    cursor: pointer;
+}

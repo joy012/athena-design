@@ -4,7 +4,7 @@ import './Menu.css';
 
 const Menu = () => {
     return (
-        <nav className='navbar navbar-expand-lg navbar-light bg-white mb-4'>
+        <nav className='navbar navbar-expand-lg navbar-light mb-4'>
             <a className='navbar-brand' href='/'>
                 <img className='logo' src={logo} alt='' />
             </a>
@@ -20,7 +20,7 @@ const Menu = () => {
                 <span className='navbar-toggler-icon'></span>
             </button>
             <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
-                <div className='navbar-nav ml-auto'>
+                <div className='navbar-nav ml-auto text-center'>
                     <a className='nav-link active mr-3' href='/'>
                         Home
                     </a>
@@ -36,12 +36,11 @@ const Menu = () => {
                     <a className='nav-link mr-3' href='#team'>
                         Our Team
                     </a>
-                    <a
-                        className='nav-link btn gradient-btn text-white'
-                        href='#contact'
+                    <button
+                        className='nav-link btn gradient-btn d-block mx-auto mx-lg-0'
                     >
-                        Contact Us
-                    </a>
+                        <a href="#contact" className='text-white contact-text'>Contact Us</a>
+                    </button>
                 </div>
             </div>
         </nav>

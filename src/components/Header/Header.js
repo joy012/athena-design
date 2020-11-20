@@ -17,9 +17,11 @@ const Header = () => {
                         book.
                     </small>
                 </p>
-                <button className='btn gradient-btn'>See Pricing</button>
+                <button className='btn gradient-btn'>
+                    <a href="#pricing" className='contact-text text-white'>See Pricing</a>
+                </button>
             </div>
-            <div className='col-lg-6 col-md-7'>
+            <div className='col-lg-6 col-md-7 mt-4'>
                 <img className='img-fluid' src={headerImg} alt='' />
             </div>
         </header>

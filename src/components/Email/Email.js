@@ -3,7 +3,7 @@ import './Email.css';
 
 const Email = () => {
     return (
-        <section className='text-center my-5 '>
+        <section className='text-center my-5 ' id='contact'>
             <h1 className='title'> Get your design right, right now</h1>
             <h5 className='text-muted mt-4'>
                 Be the first know our latest offers and updates

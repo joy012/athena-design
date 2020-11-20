@@ -25,8 +25,8 @@ const Contact = () => {
                             Ipsum is that it has a more-or-less normal
                             distribution of letter.
                         </p>
-                        <button className='btn gradient-btn d-block mx-auto mx-md-0 px-3 py-2'>
-                            Contact us
+                        <button className='btn gradient-btn'>
+                            <a href="#contact" className='contact-text text-white'>Contact us</a>
                         </button>
                     </div>
                 </div>
