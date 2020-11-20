@@ -11,7 +11,7 @@ const Plans = () => {
 
     return (
         <section className="text-center plans-bg">
-           <h1>Choose Your Dedicated Team</h1>
+           <h1 className='title'>Choose Your Dedicated Team</h1>
            <div className="container mt-5">
                <div className="row ">
                    <div className="col-md-4 ">
