@@ -1,6 +1,6 @@
 .bg-img{
-    background: url(./images/background.png) no-repeat right;
-    background-size: 50%;
+    background: url(./images/background.png) no-repeat 600px -225px;
+    background-size: 70%;
 }
 .gradient-btn{
     background: linear-gradient(135deg, #29F39A 0%, #04A5F5 100%);
