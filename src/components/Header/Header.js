@@ -5,7 +5,7 @@ import headerImg from '../../Images/16 [Converted]@2x.png';
 const Header = () => {
     return (
         <header className='row'>
-            <div className='col-lg-6 col-md-5'>
+            <div className='col-lg-6 col-md-5 mt-5'>
                 <h1 className='title display-3 mb-5'>
                     Florence <br /> Agency
                 </h1>
@@ -17,7 +17,7 @@ const Header = () => {
                         book.
                     </small>
                 </p>
-                <button className='gradient-btn'>See Pricing</button>
+                <button className='btn gradient-btn'>See Pricing</button>
             </div>
             <div className='col-lg-6 col-md-7'>
                 <img className='img-fluid' src={headerImg} alt='' />

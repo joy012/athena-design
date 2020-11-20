@@ -36,7 +36,10 @@ const Menu = () => {
                     <a className='nav-link mr-3' href='#team'>
                         Our Team
                     </a>
-                    <a className='nav-link gradient-btn text-white' href='#contact'>
+                    <a
+                        className='nav-link btn gradient-btn text-white'
+                        href='#contact'
+                    >
                         Contact Us
                     </a>
                 </div>

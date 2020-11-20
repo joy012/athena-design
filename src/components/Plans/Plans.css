@@ -1,12 +1,10 @@
-
-.plans-bg{
+.plans-bg {
     /* background-image: url(https://i.ibb.co/fvTSPRS/Group-46-2x.png); */
-     background-image: url(https://i.ibb.co/hcW05gQ/backuoung-1.png); 
-    background-position: left left ;
+    background-image: url(https://i.ibb.co/hcW05gQ/backuoung-1.png);
+    background-position: left left;
     background-repeat: no-repeat;
-    background-size: 1000px auto ; 
+    background-size: 1000px auto;
     background-position: right 763px bottom -198px;
-
 }
 .plans-cards hr {
     margin-top: 0rem;
@@ -14,26 +12,30 @@
     border: 0;
     border-top: 1px solid #1ddab8;
 }
-.plans-cards{
+.plans-cards {
     padding: 5px 5px;
     background-color: #fff;
     box-sizing: border-box;
     border-radius: 5px;
-    border: 2px solid  #fff;
-    box-shadow: 0px 10px 20px rgba(58, 57, 13, 0.1); 
+    border: 2px solid #fff;
+    box-shadow: 0px 10px 20px rgba(58, 57, 13, 0.1);
 }
-.plans-cards:hover{
-    border: 2px solid  #009efd;
+.plans-cards:hover {
+    border: 2px solid #009efd;
 }
-.plans-btn{
-    background: linear-gradient(80deg,#1ddab8 0%, #009efd 100%);
-    padding: 10px 22px;
-    border-radius: 5px;
+.plans-btn {
+    background: linear-gradient(135deg, #29f39a 0%, #04a5f5 100%);
+    padding: 0.8rem 2rem !important;
     color: white;
+    border: none;
+    border-radius: 30px 0 30px 0;
 }
-#plan1Btn, #plan2Btn,#plan3Btn{
+#plan1Btn,
+#plan2Btn,
+#plan3Btn {
     visibility: hidden;
 }
-.plans-cards:hover .plans-btn{
+.plans-cards:hover .plans-btn {
     visibility: show;
+    color: #fff;
 }
